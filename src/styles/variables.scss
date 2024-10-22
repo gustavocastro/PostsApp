@@ -1,0 +1,43 @@
+:root {
+    --font-sm: 12px;
+    --font-normal: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 24px;
+
+    --font-semibold: 600;
+    --font-bold: 900;
+
+    --font-family: 'Quicksand';
+
+    --default-spacing: 16px;
+    --default-border-radius: 24px;
+
+    --base-element-size: 200px;
+
+    --white: #fff;
+
+    --gray-50: #f8f7fb;
+    --gray-700: #525255;
+
+    --blue-100: #effffC;
+
+    --violet-100: #dbe1ff;
+    --violet-800: #7855bc;
+}
+
+html {
+    --main-background-color: var(--white);
+    --on-main-background-color: var(--gray-700);
+
+    --accent-background-color: var(--violet-100);
+    --on-accent-text-color: var(--violet-800);
+    
+    --gradient-background-light: var(--blue-100);
+    --gradient-background-dark: var(--violet-100);
+}
+
+// By replacing the variables we set in html, we could easily have a dark theme
+html.dark-mode {
+    --main-background-color: var(--gray-700);
+}

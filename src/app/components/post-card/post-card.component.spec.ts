@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { PostCardComponent } from './post-card.component';
-import { Store, StoreModule } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 import { of } from 'rxjs';
-import { Subscription } from 'rxjs';
 import { Post } from '../post-grid/post-grid.component';
 import { AppState } from '../../store';
 
